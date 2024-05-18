@@ -1,0 +1,22 @@
+body{
+    height:calc(100vh - 16px);
+    background-color: burlywood;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container{
+    height: 90vh;
+    aspect-ratio: 1/1;
+    border: 2px solid black;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+canvas{
+    background-color: antiquewhite;
+    border-radius: 3px;
+}
