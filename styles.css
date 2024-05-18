@@ -1,22 +1,26 @@
 body{
-    height:calc(100vh - 16px);
-    background-color: burlywood;
+    background-color:burlywood ;
+    height: 100vh;
     display: flex;
-    align-items: center;
+    flex-direction:column ;
     justify-content: center;
+    align-items: center;
+    margin:0;
 }
-
 #container{
-    height: 90vh;
+    background: #deb887;
+    height: 75vw;
     aspect-ratio: 1/1;
-    border: 2px solid black;
     border-radius: 5px;
+    margin: 20px;
+    overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
+    box-shadow:  27px 27px 45px #c6a478,
+             -27px -27px 45px #f6cc96;
 }
-
-canvas{
-    background-color: antiquewhite;
-    border-radius: 3px;
+#mycanvas{
+    border-radius: 4px;
+    /* border:2px solid black; */
 }
